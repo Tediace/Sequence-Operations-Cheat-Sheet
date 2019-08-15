@@ -70,8 +70,7 @@ Returns a portion of the original
 ```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
-student_gpas[1:3] # [4.0, 3.2
-]
+student_gpas[1:3] # [4.0, 3.2]
 ##Mutable Sequence Only Operations
 ```
 **Append**

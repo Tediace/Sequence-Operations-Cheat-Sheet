@@ -6,100 +6,116 @@ Attaches one sequence to the end of another
 ```python
 ./nums1 = [1, 2, 3]
 nums2 = [4, 5, 6]
-```
-nums3 = nums1 + num2 # [1, 2, 3, 4, 5, 6]
 
+nums3 = nums1 + num2 # [1, 2, 3, 4, 5, 6]
+```
 **Count**
 Returns the number of times an item appears in a sequence
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 student_gpas.count(4.0) # 2
-
+```
 **In**
 Returns boolean indicating whether item is in sequence
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 3.2 in student_gpas # True
-
+```
 **Index**
 Returns index of first occuring passed item
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 student_gpas.index(4.0) # 1
-
-Len
+```
+**Len**
 Returns number of items in the sequence
+```python
 my_pets = ['Scofield', 'Edel', 'Ernie', 'Squash']
 
 len(my_pets) #4
-
+```
 **Max**
 Returns largest item in sequence
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 max(student_gpas) # 4.0
-
+```
 **Min**
 Returns smallest item in sequence
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 min(student_gpas) # 1.5
-
+```
 **Multiply**
 Attaches a sequence to itself n number of times
+```python
 nums1 = [1, 2, 3]
 
 nums1 * 2 # [1, 2, 3, 1, 2, 3]
-
+```
 **Not in**
 Returns a boolean indicating whether an item is not in a sequence
+```python
 my_pets = ['Scofield', 'Edel', 'Ernie', 'Squash']
 
 'Jellybean' not in my_pets # True
-
+```
 **Slice**
-Returns a portion of the original sequence
+Returns a portion of the original 
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
-student_gpas[1:3] # [4.0, 3.2]
-
+student_gpas[1:3] # [4.0, 3.2
+]
 ##Mutable Sequence Only Operations
+```
 **Append**
-Adds an item to the end of a sequence
+Adds an item to the end of a 
+```python
 my_pets = ['Scofield', 'Edel', 'Ernie', 'Squash']
 
 my_pets.append('Vera') # ['Scofield', 'Edel', 'Ernie', 'Squash', 'Vera']
-
+```
 **Del**
 Deletes a slice from a sequence
+```python
 my_pets = ['Scofield', 'Edel', 'Ernie', 'Squash', 'Vera']
 
 del my_pets[0:2] # ['Ernie', 'Squash', 'Vera']
-
+```
 **Insert**
 Inserts an item into a sequence at the provided index
+```python
 fruits = ['apple', 'banana', 'orange', 'pear', 'strawberry']
 
 fruits.insert(2, 'kiwi') # ['apple', 'banana', 'kiwi', 'orange', 'pear', 'strawberry']
-
+```
 **Pop**
 Removes item from sequence, but also retrieves it
+```python
 fruits = ['apple', 'banana', 'orange', 'pear', 'strawberry']
 
 apple = fruits.pop(0) # ['banana', 'orange', 'pear', 'strawberry'], apple = 'apple'
-
+```
 **Remove**
 Removes item first occurrence of item from sequence
+```python
 student_gpas = [2.5, 4.0, 3.2, 2.9, 3.7, 1.5, 4.0]
 
 student_gpas.remove(4.0) # [2.5, 3.2, 2.9, 3.7, 1.5, 4.0]
-
+```
 **Reverse**
 Reverses sequence in place
+```python
 my_pets = ['Ernie', 'Squash', 'Vera']
 
 my_pets.reverse() # ['Vera', 'Squash', 'Ernie']
-
+```
 
 
 
